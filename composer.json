@@ -36,12 +36,5 @@
             "composer phpunit"
         ]
     },
-    "license": "MIT",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../tempest-framework",
-            "symlink": true
-        }
-    ]
+    "license": "MIT"
 }
