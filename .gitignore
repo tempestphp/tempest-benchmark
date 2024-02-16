@@ -4,3 +4,6 @@ vendor/
 /public/main.css
 /package-lock.json
 /.php-cs-fixer.cache
+app/Console/ConsoleCommand_*
+app/Controllers/Controller_*
+.idea/
