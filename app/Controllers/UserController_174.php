@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Controllers;
+
+use Tempest\Http\Get;
+use Tempest\Http\Post;
+
+final readonly class UserController_174
+{
+    #[Get('/users/controller_174')]
+    public function index_174()
+    {
+
+    }
+
+    #[Get('/users/controller_174/{id}')]
+    public function show_174($id)
+    {
+
+    }
+
+    #[Get('/users/controller_174/create')]
+    public function create($id)
+    {
+
+    }
+
+    #[Post('/users/controller_174/create')]
+    public function store($id)
+    {
+
+    }
+
+    #[Get('/users/controller_174/{id}/edit')]
+    public function edit($id)
+    {
+
+    }
+
+    #[Post('/users/controller_174/{id}/edit')]
+    public function update($id)
+    {
+
+    }
+
+    #[Post('/users/controller_174/{id}/delete')]
+    public function delete($id)
+    {
+
+    }
+}
