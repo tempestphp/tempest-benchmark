@@ -9,9 +9,9 @@ use Tempest\Router\Post;
 final readonly class AdminController_262
 {
     #[Get('/admin/controller_262')]
-    public function index_262()
+    public function index_262(): Ok
     {
-
+        return new Ok();
     }
 
     #[Get('/admin/controller_262/show/{?id}')]
