@@ -4,7 +4,7 @@ $templates = [
     __DIR__ . '/UserController_001.php' => __DIR__ . '/../app/Controllers/',
     __DIR__ . '/AdminController_001.php' => __DIR__ . '/../app/Controllers/',
     __DIR__ . '/PostController_001.php' => __DIR__ . '/../app/Controllers/',
-    __DIR__ . '/ConsoleCommand_001.php' => __DIR__ . '/../app/Console/',
+//    __DIR__ . '/ConsoleCommand_001.php' => __DIR__ . '/../app/Console/',
 ];
 
 foreach ($templates as $templatePath => $destination) {
