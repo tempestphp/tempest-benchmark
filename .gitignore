@@ -8,3 +8,4 @@ app/Console/ConsoleCommand_*
 app/Controllers/Controller_*
 .idea/
 .env
+log/

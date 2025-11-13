@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Controllers;
+
+use Tempest\Router\Get;
+use Tempest\Router\Post;
+
+final readonly class AdminController_534
+{
+    #[Get('/admin/controller_534')]
+    public function index_534()
+    {
+
+    }
+
+    #[Get('/admin/controller_534/{id}')]
+    public function show_534($id)
+    {
+
+    }
+
+    #[Get('/admin/controller_534/create')]
+    public function create($id)
+    {
+
+    }
+
+    #[Post('/admin/controller_534/create')]
+    public function store($id)
+    {
+
+    }
+
+    #[Get('/admin/controller_534/{id}/edit')]
+    public function edit($id)
+    {
+
+    }
+
+    #[Post('/admin/controller_534/{id}/edit')]
+    public function update($id)
+    {
+
+    }
+
+    #[Post('/admin/controller_534/{id}/delete')]
+    public function delete($id)
+    {
+
+    }
+}

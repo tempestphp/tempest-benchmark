@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Controllers;
+
+use Tempest\Router\Get;
+use Tempest\Router\Post;
+
+final readonly class AdminController_872
+{
+    #[Get('/admin/controller_872')]
+    public function index_872()
+    {
+
+    }
+
+    #[Get('/admin/controller_872/{id}')]
+    public function show_872($id)
+    {
+
+    }
+
+    #[Get('/admin/controller_872/create')]
+    public function create($id)
+    {
+
+    }
+
+    #[Post('/admin/controller_872/create')]
+    public function store($id)
+    {
+
+    }
+
+    #[Get('/admin/controller_872/{id}/edit')]
+    public function edit($id)
+    {
+
+    }
+
+    #[Post('/admin/controller_872/{id}/edit')]
+    public function update($id)
+    {
+
+    }
+
+    #[Post('/admin/controller_872/{id}/delete')]
+    public function delete($id)
+    {
+
+    }
+}

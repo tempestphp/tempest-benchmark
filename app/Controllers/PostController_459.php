@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Controllers;
+
+use Tempest\Router\Get;
+use Tempest\Router\Post;
+
+final readonly class PostController_459
+{
+    #[Get('/posts/controller_459')]
+    public function index_459()
+    {
+
+    }
+
+    #[Get('/posts/controller_459/{id}')]
+    public function show_459($id)
+    {
+
+    }
+
+    #[Get('/posts/controller_459/create')]
+    public function create($id)
+    {
+
+    }
+
+    #[Post('/posts/controller_459/create')]
+    public function store($id)
+    {
+
+    }
+
+    #[Get('/posts/controller_459/{id}/edit')]
+    public function edit($id)
+    {
+
+    }
+
+    #[Post('/posts/controller_459/{id}/edit')]
+    public function update($id)
+    {
+
+    }
+
+    #[Post('/posts/controller_459/{id}/delete')]
+    public function delete($id)
+    {
+
+    }
+}
