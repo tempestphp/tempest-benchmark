@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use Tempest\Http\Responses\Ok;
 use Tempest\Router\Get;
 use Tempest\Router\Post;
 
@@ -13,10 +14,10 @@ final readonly class AdminController_277
 
     }
 
-    #[Get('/admin/controller_277/{id}')]
-    public function show_277($id)
+    #[Get('/admin/controller_277/show/{?id}')]
+    public function show_277(?string $id): Ok
     {
-
+        return new Ok($id ?? 'empty');
     }
 
     #[Get('/admin/controller_277/create')]
