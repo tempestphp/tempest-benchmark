@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use Tempest\Http\Get;
-use Tempest\Http\Post;
+use Tempest\Router\Get;
+use Tempest\Router\Post;
 
 final readonly class AdminController_001
 {
