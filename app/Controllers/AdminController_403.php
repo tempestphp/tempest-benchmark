@@ -14,7 +14,7 @@ final readonly class AdminController_403
         return new Ok();
     }
 
-    #[Get('/admin/controller_403/show/{?id}')]
+    #[Get('/admin/controller_403/show/{id}')]
     public function show_403(?string $id): Ok
     {
         return new Ok($id ?? 'empty');
