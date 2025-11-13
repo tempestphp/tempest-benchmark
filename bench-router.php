@@ -15,9 +15,9 @@ $router = $container->get(Router::class);
 $uris = [
     '/admin/controller_001',
     '/admin/controller_001/show/1',
-//    '/admin/controller_001/show',
+    '/admin/controller_001/show',
     '/admin/controller_999/show/1',
-//    '/admin/controller_999/show',
+    '/admin/controller_999/show',
     '/admin/controller_999',
 ];
 

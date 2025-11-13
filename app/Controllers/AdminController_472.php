@@ -14,7 +14,7 @@ final readonly class AdminController_472
         return new Ok();
     }
 
-    #[Get('/admin/controller_472/show/{id}')]
+    #[Get('/admin/controller_472/show/{?id}')]
     public function show_472(?string $id): Ok
     {
         return new Ok($id ?? 'empty');
